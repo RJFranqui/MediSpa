@@ -1,11 +1,9 @@
 "use client";
 import { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Separator } from "@/components/ui/separator";
-import { MountainIcon, Home, Clock, Phone, Mail } from "lucide-react";
+import { Home, Clock, Phone, Mail } from "lucide-react";
 import Image from 'next/image';
-
+import Link from 'next/link';
 // This is the reusable Navbar component.
 // You can import this into any page to have consistent navigation.
 const Navbar = () => {
@@ -37,9 +35,9 @@ const Navbar = () => {
       {/* Navigation Links */}
       <div className="flex items-center gap-4 md:gap-6">
       <div className="flex items-center gap-4 md:gap-6">
-        <a href="/" className="...">Home</a>
-        <a href="/services" className="...">Services</a>
-        <a href="/contact" className="...">Contact</a>
+        <Link href="/" className="...">Home</a>
+        <Link href="/services" className="...">Services</a>
+        <Link href="/contact" className="...">Contact</a>
         {/* Book Appointment Button */}
         </div>
       </div>
