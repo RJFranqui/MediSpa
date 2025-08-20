@@ -35,9 +35,9 @@ const Navbar = () => {
       {/* Navigation Links */}
       <div className="flex items-center gap-4 md:gap-6">
       <div className="flex items-center gap-4 md:gap-6">
-        <Link href="/" className="...">Home</a>
-        <Link href="/services" className="...">Services</a>
-        <Link href="/contact" className="...">Contact</a>
+        <Link href="/" className="...">Home</ Link>
+        <Link href="/services" className="...">Services</Link>
+        <Link href="/contact" className="...">Contact</Link>
         {/* Book Appointment Button */}
         </div>
       </div>
