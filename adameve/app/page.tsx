@@ -16,7 +16,7 @@ export default function App() {
       {/* Background Image and Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url('/images/adamEveSpa.jpg')` }}
+        style={{ backgroundImage: `url("/images/adamEveSpa.jpg")` }}
       ></div>
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
 

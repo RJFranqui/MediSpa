@@ -42,8 +42,8 @@ const Navbar = () => {
         </div>
       </div>
       
-      {/* Call to Action Button */}
-      <Button className="hidden sm:inline-flex bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg shadow-md transition-all">
+      {/* Call to Action Button sm:inline-flex add this back when implementing */}
+      <Button className="hidden bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg shadow-md transition-all">
         Book an Appointment
       </Button>
     </nav>
