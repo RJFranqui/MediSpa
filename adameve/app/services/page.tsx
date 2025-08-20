@@ -9,35 +9,30 @@ export default function ServicesPage() {
           name: "Weight Loss",
           subtitle: "Shots, medically supervised weight loss",
           description: "Our medically supervised weight loss programs are tailored to your unique needs, combining advanced therapies like weight loss shots with personalized diet and exercise plans. We focus on sustainable, long-term results to help you achieve your wellness goals safely and effectively.",
-          pricing: "Consultation required",
           imageUrl: "images/weightLoss.jpg"
         },
         {
           name: "Botox",
           subtitle: "Smooth away fine lines and wrinkles",
           description: "Botox treatments are a popular, non-surgical way to reduce the appearance of fine lines and wrinkles. Our skilled practitioners use a meticulous approach to provide natural-looking results that leave you with a refreshed and youthful appearance.",
-          pricing: "Starting from $XX per unit",
           imageUrl: "images/botox.png"
         },
         {
           name: "Dermal Filler",
           subtitle: "Restore volume and youthful contours",
           description: "Dermal fillers are used to restore lost volume, smooth out deep wrinkles, and enhance facial contours. We offer a variety of FDA-approved fillers to create a customized treatment plan that beautifully complements your natural features.",
-          pricing: "Starting from $XXX per syringe",
           imageUrl: "images/dermal.png"
         },
         {
           name: "PDO Thread Lift",
           subtitle: "Non-surgical facelift for a lifted look",
           description: "A PDO thread lift is a minimally invasive procedure that provides an immediate lifting and tightening effect. The threads stimulate collagen production, improving skin texture and elasticity over time for a firmer, more rejuvenated look.",
-          pricing: "Starting from $XXXX per area",
           imageUrl: "images/PDO.png"
         },
         {
           name: "Bio-identical Hormone Replacement Therapy",
           subtitle: "Rebalance your hormones naturally",
           description: "Our bio-identical hormone replacement therapy (BHRT) uses hormones that are identical in molecular structure to the ones your body naturally produces. This personalized approach helps to alleviate symptoms of hormonal imbalance and improve overall well-being.",
-          pricing: "Custom pricing based on treatment plan",
           imageUrl: "images/Hormone.jpg"
         },
       ];
@@ -103,13 +98,7 @@ export default function ServicesPage() {
                           {service.description}
                         </p>
     
-                        <Separator />
-                        
-                        <div className="mt-4">
-                          <p className="text-lg font-semibold text-indigo-600">
-                            Pricing: {service.pricing}
-                          </p>
-                        </div>
+                       
                       </div>
                     </CardContent>
                   </Card>
