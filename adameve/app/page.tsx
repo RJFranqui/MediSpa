@@ -44,11 +44,16 @@ export default function App() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex flex-col md:flex-row items-center md:items-start md:space-x-8">
-                <div className="flex-1 order-2 md:order-1 mt-4 md:mt-0">
-                  <p className="text-gray-700 dark:text-gray-300">
-                  I am a Nurse Practitioner. I am passionate about preventative health care and educating patients to be their own health care advocate. 
-                  My goal is to create a trusting relationship with all my patients and to provide the the anti-aging tools to promote a healthy weight, diet, appearance, and lifestyle choices. Providing identical hormone replacement therapy allows patients to enjoy a better quality of life and it&apos;s a privilege to be part of that process.
-                  </p>
+                <div className="flex-1 order-2 md:order-1 mt-4 md:mt-0 text-center">
+                  <div className="text-gray-700 dark:text-gray-300">
+                  <ul >
+                    <li>As a dedicated Nurse Practitioner, my journey into the world of aesthetic and preventative health was born from a deep-seated passion for wellness and patient empowerment. I believe that true health extends beyond simply treating symptoms; it&apos;s about proactively nurturing the body and mind. My core philosophy is centered on preventative healthcare, and I am driven by the belief that every patient should be their own fiercest health advocate. That&apos;s why a key part of my practice is devoted to educating and empowering individuals with the knowledge they need to make informed decisions about their well-being.
+                    </li>
+                    <li>
+                    My goal is to build a foundation of trust with every patient who walks through our doors. By creating a warm, confidential, and judgment-free environment, I can truly understand your personal health goals. I am committed to providing you with the most effective anti-aging tools available to promote a healthy weight, balanced diet, radiant appearance, and positive lifestyle choices. From comprehensive consultations to personalized treatment plans, I focus on helping you feel revitalized from the inside out.
+                    </li>
+                 </ul>
+                  </div>
                 </div>
                 <div className="w-full md:w-1/2 flex-shrink-0 order-1 md:order-2  ">
                   <img 
