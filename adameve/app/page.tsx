@@ -47,7 +47,7 @@ export default function App() {
                 <div className="flex-1 order-2 md:order-1 mt-4 md:mt-0">
                   <p className="text-gray-700 dark:text-gray-300">
                   I am a Nurse Practitioner. I am passionate about preventative health care and educating patients to be their own health care advocate. 
-                  My goal is to create a trusting relationship with all my patients and to provide the the anti-aging tools to promote a healthy weight, diet, appearance, and lifestyle choices. Providing identical hormone replacement therapy allows patients to enjoy a better quality of life and it's a privilege to be part of that process.
+                  My goal is to create a trusting relationship with all my patients and to provide the the anti-aging tools to promote a healthy weight, diet, appearance, and lifestyle choices. Providing identical hormone replacement therapy allows patients to enjoy a better quality of life and it&apos;s a privilege to be part of that process.
                   </p>
                 </div>
                 <div className="w-full md:w-1/2 flex-shrink-0 order-1 md:order-2  ">
