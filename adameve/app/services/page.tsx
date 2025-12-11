@@ -21,14 +21,21 @@ export default function ServicesPage() {
           name: "Dermal Filler",
           subtitle: "Restore volume and youthful contours",
           description: "Dermal fillers are used to restore lost volume, smooth out deep wrinkles, and enhance facial contours. We offer a variety of FDA-approved fillers to create a customized treatment plan that beautifully complements your natural features.",
-          imageUrl: "images/dermal.png"
+          imageUrl: "images/services/dermal2.JPG"
         },
         {
           name: "PDO Thread Lift",
           subtitle: "Non-surgical facelift for a lifted look",
           description: "A PDO thread lift is a minimally invasive procedure that provides an immediate lifting and tightening effect. The threads stimulate collagen production, improving skin texture and elasticity over time for a firmer, more rejuvenated look.",
-          imageUrl: "images/PDO.png"
+          imageUrl: "images/services/PDO.jpeg"
         },
+        {
+          name: "Liquid Rhinoplasty",
+          subtitle: "Non-surgical nose reshaping",
+          description: "Liquid rhinoplasty is a non-surgical procedure that uses dermal fillers to reshape and contour the nose. This quick and effective treatment can address minor imperfections, providing a more balanced and harmonious facial appearance without the need for surgery.",
+          imageUrl: "images/services/rhinoplasty.jpeg"
+        },
+
         {
           name: "Bio-identical Hormone Replacement Therapy",
           subtitle: "Rebalance your hormones naturally",
